@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: Arial;
+}
+
+.introduction{
+    position: relative;
+    margin: 30px 0px;
+}
+.sectionTitleIntro{
+    margin: auto;
+    max-width: 600px;
+}
+.sectionSubtitleIntro{
+    background-color: rgb(204, 92, 0);
+    margin: auto;
+    min-width: fit-content;
+    max-width: 600px;
+    color: white;
+    padding: 3px;
+}
+
+.myServices{
+    background-position: 50%;
+    background-image: url('https://res.cloudinary.com/dukp6c7f7/image/upload/f_auto,fl_lossy,q_auto/s3-ghost/2020/03/Ergonomic-Workspace.jpg');
+}
+.sectionTitleServices{
+    margin: auto;
+    background-color: rgb(204, 92, 0);
+    padding: 3px;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.service{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 50px;
+    float: left;
+    height: 300px;
+    max-width: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.serviceTitle{
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.sectionTitleWorks{
+    margin-left: 20px;
+    
+    
+}
+.sectionSubtitleWorks{
+    margin-left: 20px;
+    background-color: rgb(204, 92, 0);
+    padding: 3px;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.portfolioItem{
+    border-radius: 5px;
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+}
+.portfolioItemTitle{
+    border-bottom: solid black 3px;
+}
